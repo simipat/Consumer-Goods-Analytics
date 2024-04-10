@@ -1,4 +1,4 @@
-#1  Provide the list of markets in which customer "Atliq Exclusive" operates its business in the APAC region.
+# 1  Provide the list of markets in which customer "Atliq Exclusive" operates its business in the APAC region.
 
 SELECT market
 FROM dim_customer
@@ -6,7 +6,7 @@ WHERE customer= 'Atliq Exclusive' AND region= 'APAC'
 GROUP BY market;
 
 
-#2  What is the percentage of unique product increase in 2021 vs. 2020?
+# 2  What is the percentage of unique product increase in 2021 vs. 2020?
 
 SELECT
 A.unq_20 AS unique_products_2020,
@@ -24,7 +24,7 @@ WHERE fiscal_year = 2021) B
 );
 
 
-#3  Provide a report with all the unique product counts for each segment and sort them in descending order of product counts.
+# 3  Provide a report with all the unique product counts for each segment and sort them in descending order of product counts.
 
 SELECT
 segment,
@@ -34,7 +34,7 @@ GROUP BY segment
 ORDER BY product_count DESC;
 
 
-#4  Follow-up: Which segment had the most increase in unique products in 2021 vs 2020?
+# 4  Follow-up: Which segment had the most increase in unique products in 2021 vs 2020?
 
 WITH cte1 AS 
 (SELECT
@@ -63,7 +63,7 @@ FROM cte1, cte2
 WHERE cte1.s1=cte2.s2;
 
 
-#5  Get the products that have the highest and lowest manufacturing costs.
+# 5  Get the products that have the highest and lowest manufacturing costs.
 
 (SELECT
 m.product_code,
@@ -84,7 +84,7 @@ ORDER BY m.manufacturing_cost ASC
 LIMIT 1) -- Lowest cost product;
 
 
-#6  Generate a report which contains the top 5 customers who received an average high pre_invoice_discount_pct for the fiscal year 2021 and in the
+# 6  Generate a report which contains the top 5 customers who received an average high pre_invoice_discount_pct for the fiscal year 2021 and in the
 Indian market.
 
 SELECT
@@ -99,7 +99,7 @@ ORDER BY average_discount_percentage DESC
 LIMIT 5;
 
 
-#7  Get the complete report of the Gross sales amount for the customer “Atliq Exclusive” for each month . This analysis helps to get an idea of low and
+# 7  Get the complete report of the Gross sales amount for the customer “Atliq Exclusive” for each month . This analysis helps to get an idea of low and
 high-performing months and take strategic decisions.
 
 SELECT
@@ -116,7 +116,7 @@ GROUP BY month, s.fiscal_year
 ORDER BY s.fiscal_year;
 
 
-#8  In which quarter of 2020, got the maximum total_sold_quantity?
+# 8  In which quarter of 2020, got the maximum total_sold_quantity?
 
 SELECT
 CASE
@@ -132,7 +132,7 @@ GROUP BY quarters
 ORDER BY total_sold_quantity_in_mln DESC;
 
 
-#9  Which channel helped to bring more gross sales in the fiscal year 2021 and the percentage of contribution?
+# 9  Which channel helped to bring more gross sales in the fiscal year 2021 and the percentage of contribution?
 
 WITH cte1 AS (
 SELECT c.channel, SUM(s.sold_quantity*g.gross_price) AS total_sales
@@ -148,7 +148,7 @@ ROUND(total_sales/(SUM(total_sales) OVER())*100,2) AS percentage
 FROM cte1;
 
 
-#10  Get the Top 3 products in each division that have a high total_sold_quantity in the fiscal_year 2021?
+# 10  Get the Top 3 products in each division that have a high total_sold_quantity in the fiscal_year 2021?
 
 WITH cte1 AS (
 SELECT
