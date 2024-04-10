@@ -8,7 +8,7 @@ Atliq Hardwares, a prominent computer hardware producer in India with global rea
 
 ●Review the document '[ad-hoc-requests.pdf](https://github.com/simipat/Consumer-Goods-Analytics/blob/main/ad-hoc-requests(10).pdf)', which contains ten ad hoc data analysis requests that represent real-world business needs.
 
-●Use SQL queries to address these requests, transforming raw data into meaningful insights.
+●Use [SQL queries](https://github.com/simipat/Consumer-Goods-Analytics/blob/main/SQL%20queries) to address these requests, transforming raw data into meaningful insights.
 
 
 ## Knowledge gained in:
