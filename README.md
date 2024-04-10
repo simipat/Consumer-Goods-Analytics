@@ -1,17 +1,17 @@
-#Consumer-Goods-Analytics
+# Consumer-Goods-Analytics
 
-##Problem Statement:
+## Problem Statement:
 
 Atliq Hardwares, a prominent computer hardware producer in India with global reach, is committed to leveraging data for informed decision-making. However, they've identified a need for more insights and are keen to expand their data analytics team with junior data analysts who possess both technical and soft skills.
 
-###Task Description:
+### Task Description:
 
 ●Review the document 'ad-hoc-requests.pdf,' which contains ten ad hoc data analysis requests that represent real-world business needs.
 
 ●Use SQL queries to address these requests, transforming raw data into meaningful insights.
 
 
-##Knowledge gained in:
+## Knowledge gained in:
 
 1. Database Exploration with MySQL Workbench: Loading databases into MySQL Workbench, Navigating and exploring tables within the database.
 
@@ -33,7 +33,7 @@ Atliq Hardwares, a prominent computer hardware producer in India with global rea
 
 10. Database Optimization Techniques: Implementing indexes for faster query performance, Creating triggers and events for automated database responses, Managing user accounts and permissions to ensure secure and controlled access to the database.
 
-##Key Evaluation Criteria:
+## Key Evaluation Criteria:
 
 ●SQL Proficiency: Ability to write SQL queries that efficiently extract relevant information from the database.
 
