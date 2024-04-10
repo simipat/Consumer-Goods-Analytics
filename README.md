@@ -41,6 +41,6 @@ Atliq Hardwares, a prominent computer hardware producer in India with global rea
 
 ●Communication Skills:Capability to present findings clearly, concisely, and persuasively.
 
-Outcome:
+## Outcome:
 
 By successfully completing this challenge, I will not only demonstrate my technical prowess but also my potential to be a valuable member of Atliq Hardwares' data analytics team. My insights could contribute to informed decision-making and drive the company's growth and success in the dynamic world of computer hardware production.
