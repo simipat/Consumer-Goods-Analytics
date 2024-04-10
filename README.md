@@ -6,7 +6,7 @@ Atliq Hardwares, a prominent computer hardware producer in India with global rea
 
 ### Task Description:
 
-●Review the document '[ad-hoc-requests.pdf](https://github.com/simipat/Consumer-Goods-Analytics/blob/main/ad-hoc-requests(10).pdf),' which contains ten ad hoc data analysis requests that represent real-world business needs.
+●Review the document '[ad-hoc-requests.pdf](https://github.com/simipat/Consumer-Goods-Analytics/blob/main/ad-hoc-requests(10).pdf)', which contains ten ad hoc data analysis requests that represent real-world business needs.
 
 ●Use SQL queries to address these requests, transforming raw data into meaningful insights.
 
